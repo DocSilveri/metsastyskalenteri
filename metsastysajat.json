@@ -1,0 +1,974 @@
+{
+    "Alli": {
+        "vieraslaji": false,
+        "lajinimi": "Alli",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Merialueilla",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.12.2025",
+                    "info": "Metsästäjäkohtainen kiintiö: 5 allia / vrk. Lakisääteinen saalisilmoitus."
+                }
+            }
+        ]
+    },
+    "Euroopanmajava": {
+        "vieraslaji": false,
+        "lajinimi": "Euroopanmajava",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 10 §:n mukaisella pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "20.8.2025",
+                    "end": "30.4.2026",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 §:ssä tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Fasaani": {
+        "vieraslaji": false,
+        "lajinimi": "Fasaani",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "28.2.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Haahka": {
+        "vieraslaji": false,
+        "lajinimi": "Haahka",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Maa- ja metsätalousministeriön asetuksen liitteenä olevaan karttaan erikseen merkityllä alueella.",
+                "metsastysajat": {
+                    "start": "1.6.2025",
+                    "end": "15.6.2025",
+                    "info": "Uros."
+                }
+            }
+        ]
+    },
+    "Haapana": {
+        "vieraslaji": false,
+        "lajinimi": "Haapana",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Halli": {
+        "vieraslaji": false,
+        "lajinimi": "Halli",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "MetsL 10 §:n nojalla annetun alueellisen kiintiön puitteissa.",
+                "metsastysajat": {
+                    "start": "16.4.2025",
+                    "end": "31.12.2025",
+                    "info": "Kiintiö etusivulla"
+                }
+            },
+            {
+                "metsastysalue": "MetsL 10 §:n nojalla annetun alueellisen kiintiön puitteissa",
+                "metsastysajat": {
+                    "start": "16.4.2026",
+                    "end": "31.12.2026",
+                    "info": "Kiintiö etusivulla"
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 §:ssä tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Heinätavi": {
+        "vieraslaji": false,
+        "lajinimi": "Heinätavi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Hilleri": {
+        "vieraslaji": false,
+        "lajinimi": "Hilleri",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.7.2025",
+                    "info": "Lakisääteinen saalisilmoitus. Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7."
+                }
+            }
+        ]
+    },
+    "Hirvi": {
+        "vieraslaji": false,
+        "lajinimi": "Hirvi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla Kuusamon ja Taivalkosken kunnissa sekä Lapin maakunnassa.",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "20.9.2025",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Pellolta vahtimalla Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla Kainuun ja Pohjois-Pohjanmaan maakuntien alueella lukuun ottamatta Kuusamon ja Taivalkosken kuntia.",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "3.10.2025",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Pellolta vahtimalla Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla Etelä-Karjalan, Etelä-Pohjanmaan, Etelä-Savon, Kanta-Hämen, Keski-Pohjanmaan, Keski-Suomen, Kymenlaakson, Pirkanmaan, Pohjanmaan, Pohjois-Karjalan, Pohjois-Savon, Päijät-Hämeen, Satakunnan, Uudenmaan ja Varsinais-Suomen maakunnissa.",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "10.10.2025",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla Lapin, Pohjois-Pohjanmaan ja Kainuun maakunnissa",
+                "metsastysajat": {
+                    "start": "4.10.2025",
+                    "end": "15.1.2026",
+                    "info": ". Huom. Poronhoitoalueella koiran käyttäminen hirven metsästykseen on kielletty 1.1. – 15.1. Ei koske koiran käyttämistä haavoittuneen eläimen jäljittämiseen."
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "11.10.2025",
+                    "end": "15.1.2026",
+                    "info": "Muualla kuin Lapin, Pohjois-Pohjanmaan ja Kainuun maakunnissa"
+                }
+            }
+        ]
+    },
+    "Ilves": {
+        "vieraslaji": false,
+        "lajinimi": "Ilves",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Poronhoitoalueella Suomen riistakeskuksen myöntämällä MetsL 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla ( lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa).",
+                "metsastysajat": {
+                    "start": "1.10.2025",
+                    "end": "28.2.2026",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Muualla maassa Suomen riistakeskuksen myöntämällä MetsL 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla (lukuun ottamatta naarasta, jota vuotta nuorempi pentu seuraa).",
+                "metsastysajat": {
+                    "start": "1.12.2025",
+                    "end": "28.2.2026",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 §:ssä tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Isokoskelo": {
+        "vieraslaji": false,
+        "lajinimi": "Isokoskelo",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Itämerennorppa": {
+        "vieraslaji": false,
+        "lajinimi": "Itämerennorppa",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "MetsL 10 §:n nojalla annetun alueellisen kiintiön puitteissa",
+                "metsastysajat": {
+                    "start": "16.4.2025",
+                    "end": "31.12.2025",
+                    "info": "Kiintiö etusivulla"
+                }
+            },
+            {
+                "metsastysalue": "MetsL 10 §:n nojalla annetun alueellisen kiintiön puitteissa.",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.12.2024",
+                    "info": "Kiintiö etusivulla"
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 §:ssä tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Jouhisorsa": {
+        "vieraslaji": false,
+        "lajinimi": "Jouhisorsa",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Kanadanhanhi": {
+        "vieraslaji": false,
+        "lajinimi": "Kanadanhanhi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa.",
+                "metsastysajat": {
+                    "start": "10.8.2025",
+                    "end": "20.8.2025",
+                    "info": "Pelloilta"
+                }
+            },
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Kanadanmajava": {
+        "vieraslaji": false,
+        "lajinimi": "Kanadanmajava",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025",
+                    "end": "30.4.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Karhu": {
+        "vieraslaji": false,
+        "lajinimi": "Karhu",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Muualla maassa Suomen riistakeskuksen myöntämällä MetsL 41 a §:n 3 momentissa tarkoitetulla poikkeusluvalla, lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa)",
+                "metsastysajat": {
+                    "start": "20.8.2025",
+                    "end": "31.10.2025",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Poronhoitoalueella, metsästyslaissa säädetyistä poikkeusluvista annetun valtioneuvoston asetuksen (452/2013) 8 §:n mukaisen kiintiön nojalla (lukuun ottamatta vuotta nuorempaa pentua sekä naarasta, jota tällainen pentu seuraa)",
+                "metsastysajat": {
+                    "start": "20.8.2025",
+                    "end": "31.10.2025",
+                    "info": "Kiintiö etusivulla."
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 a §:n 1 momentissa tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Kettu": {
+        "vieraslaji": false,
+        "lajinimi": "Kettu",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Lapin maakunnassa",
+                "metsastysajat": {
+                    "start": "1.8.2025",
+                    "end": "30.4.2026",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Muualla maassa",
+                "metsastysajat": {
+                    "start": "1.8.2025",
+                    "end": "14.4.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Kiiruna": {
+        "vieraslaji": false,
+        "lajinimi": "Kiiruna",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Lapin maakuntaan kuuluvissa Enontekiön, Inarin ja Utsjoen kunnissa.",
+                "metsastysajat": {
+                    "start": "10.9.2024",
+                    "end": "31.3.2025",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Muualla maassa.",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ei metsästystä."
+                }
+            }
+        ]
+    },
+    "Kuusipeura": {
+        "vieraslaji": false,
+        "lajinimi": "Kuusipeura",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Vahtimalla – Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "26.9.2025",
+                    "info": "Vahtimalla. Ei Lapin maakunnassa."
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "27.9.2025",
+                    "end": "31.1.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Kärppä": {
+        "vieraslaji": false,
+        "lajinimi": "Kärppä",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2025",
+                    "end": "31.3.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Lapasorsa": {
+        "vieraslaji": false,
+        "lajinimi": "Lapasorsa",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Lehtokurppa": {
+        "vieraslaji": false,
+        "lajinimi": "Lehtokurppa",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Merihanhi": {
+        "vieraslaji": false,
+        "lajinimi": "Merihanhi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Maa- ja metsätalousministeriön asetuksen liitteenä olevaan karttaan erikseen merkityllä alueella.",
+                "metsastysajat": {
+                    "start": "10.8.2025",
+                    "end": "20.8.2025",
+                    "info": "Vain pelloilta. Lakisääteinen saalisilmoitus. Kahden merihanhen metsästäjäkohtainen vuorokausikiintiö. Jyväruokinnan (ravintohoukutin) käyttö on kielletty peltometsästyksessä 10.8. – 20.8 kello 12. Kielto koskee myös tukikelpoisia riistalaitumia ja pienialaisia riistapeltojen kaltaisia peltoja, joita ei saa hyödyntää metsästyksessä. Merihanhen metsästys on kielletty sisämaassa."
+                }
+            },
+            {
+                "metsastysalue": "Maa- ja metsätalousministeriön asetuksen liitteenä olevaan karttaan erikseen merkityllä alueella",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus. Kahden merihanhen metsästäjäkohtainen vuorokausikiintiö. Merihanhen metsästys on kielletty sisämaassa."
+                }
+            },
+            {
+                "metsastysalue": "Maa- ja metsätalousministeriön asetuksen liitteenä olevaan karttaan erikseen merkityllä alueella.",
+                "metsastysajat": {
+                    "start": "20.8.2020 Klo 12",
+                    "end": "31.12.2020",
+                    "info": "Kahden merihanhen metsästäjäkohtainen vuorokausikiintiö.Merihanhen metsästys on kielletty sisämaassa."
+                }
+            },
+            {
+                "metsastysalue": "Maa- ja metsätalousministeriön asetuksen liitteenä olevaan karttaan erikseen merkityllä alueella.",
+                "metsastysajat": {
+                    "start": "20.7.2020",
+                    "end": "24.7.2020",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Metso": {
+        "vieraslaji": false,
+        "lajinimi": "Metso",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "metsästysaika ilmoitetaan syyskuussa",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": ""
+                }
+            }
+        ]
+    },
+    "Metsähanhi": {
+        "vieraslaji": false,
+        "lajinimi": "Metsähanhi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Kainuun maakunnassa, Lapin maakunnassa lukuun ottamatta Enontekiön, Inarin ja Utsjoen kuntia sekä valtatien E8 merenpuoleisia alueita Tornion, Keminmaan, Kemin ja Simon kunnissa, Pohjois-Pohjanmaan maakunnassa lukuun ottamatta valtatie E8 merenpuoleisia alueita Iin, Kalajoen, Kempeleen, Limingan, Lumijoen, Oulun, Pyhäjoen, Raahen ja Siikajoen kunnissa. Metsästys sallittua valtatie E8 ja seututie 813 välisellä alueella.",
+                "metsastysajat": {
+                    "start": "20.8.2024 Klo 12",
+                    "end": "27.8.2024",
+                    "info": "Yhden (1) metsähanhen kausikiintiö. Jyväruokinnan (ravintohoukutin) käyttö metsähanhen metsästyksessä on kielletty. Pelloilta metsästys on kielletty. Saalisilmoitusvelvollisuus."
+                }
+            },
+            {
+                "metsastysalue": "Etelä-Karjalan maakunnassa, Etelä-Savon maakuntaan kuuluvissa Enonkosken, Puumalan, Savonlinnan ja Sulkavan kunnissa, Kymenlaakson maakunnassa, Pohjois-Karjalan maakuntaan kuuluvissa Ilomantsin, Joensuun, Kiteen, Kontiolahden, Liperin, Rääkkylän ja Tohmajärven kunnissa, Päijät-Hämeen maakuntaan kuuluvissa Iitin ja Orimattilan kunnissa sekä Uudenmaan maakuntaan kuuluvissa Askolan, Lapinjärven, Loviisan, Myrskylän, Porvoon ja Pukkilan kunnissa.",
+                "metsastysajat": {
+                    "start": "1.10.2024",
+                    "end": "30.11.2024",
+                    "info": "Saalisilmoitusvelvollisuus."
+                }
+            },
+            {
+                "metsastysalue": "Muualla maassa.",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ei metsästystä."
+                }
+            }
+        ]
+    },
+    "Metsäjänis": {
+        "vieraslaji": false,
+        "lajinimi": "Metsäjänis",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "28.2.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Metsäkauris": {
+        "vieraslaji": false,
+        "lajinimi": "Metsäkauris",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "15.2.2026",
+                    "info": "Ajavan koiran käyttö on sallittua 27.9.2025 alkaen. Lakisääteinen saalisilmoitus."
+                }
+            },
+            {
+                "metsastysalue": "Koko maassa.",
+                "metsastysajat": {
+                    "start": "16.5.2025",
+                    "end": "15.6.2025",
+                    "info": "Uros. Lakisääteinen saalisilmoitus."
+                }
+            }
+        ]
+    },
+    "Metsäpeura": {
+        "vieraslaji": false,
+        "lajinimi": "Metsäpeura",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "27.9.2025",
+                    "end": "31.1.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Minkki": {
+        "vieraslaji": true,
+        "lajinimi": "Minkki",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.7.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Mufloni": {
+        "vieraslaji": false,
+        "lajinimi": "Mufloni",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.1.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Mäyrä": {
+        "vieraslaji": false,
+        "lajinimi": "Mäyrä",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2025",
+                    "end": "31.3.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Nokikana": {
+        "vieraslaji": false,
+        "lajinimi": "Nokikana",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Rauhoitettu"
+                }
+            }
+        ]
+    },
+    "Näätä": {
+        "vieraslaji": false,
+        "lajinimi": "Näätä",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2025",
+                    "end": "31.3.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Orava": {
+        "vieraslaji": false,
+        "lajinimi": "Orava",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.11.2025",
+                    "end": "28.2.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Peltopyy": {
+        "vieraslaji": false,
+        "lajinimi": "Peltopyy",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Pohjanmaan, Etelä-Pohjanmaan, Keski-Pohjanmaan ja Pohjois-Pohjanmaan maakuntien alueella",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.12.2025",
+                    "info": null
+                }
+            },
+            {
+                "metsastysalue": "Muualla maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.12.2025",
+                    "info": "Suomen riistakeskuksen myöntämällä MetsL 10 §:n mukaisella pyyntiluvalla"
+                }
+            }
+        ]
+    },
+    "Piisami": {
+        "vieraslaji": true,
+        "lajinimi": "Piisami",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.7.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Punasotka": {
+        "vieraslaji": false,
+        "lajinimi": "Punasotka",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Rauhoitettu"
+                }
+            }
+        ]
+    },
+    "Pyy": {
+        "vieraslaji": false,
+        "lajinimi": "Pyy",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "metsästysaika ilmoitetaan syyskuussa",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": ""
+                }
+            }
+        ]
+    },
+    "Riekko": {
+        "vieraslaji": false,
+        "lajinimi": "Riekko",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "metsästysaika ilmoitetaan syyskuussa",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": ""
+                }
+            }
+        ]
+    },
+    "Rusakko": {
+        "vieraslaji": false,
+        "lajinimi": "Rusakko",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "28.2.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Saukko": {
+        "vieraslaji": false,
+        "lajinimi": "Saukko",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "MetsL 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: saukon pyydystämiseksi tai tappamiseksi.",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 §:ssä tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Sepelkyyhky": {
+        "vieraslaji": false,
+        "lajinimi": "Sepelkyyhky",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "10.8.2025",
+                    "end": "31.10.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Sini- eli heinäsorsa": {
+        "vieraslaji": false,
+        "lajinimi": "Sini- eli heinäsorsa",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Supikoira": {
+        "vieraslaji": true,
+        "lajinimi": "Supikoira",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.7.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Susi": {
+        "vieraslaji": false,
+        "lajinimi": "Susi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Lisäksi MetsL 41 a §:n 3 momentissa tarkoitettu poikkeuslupa voidaan myöntää: suden pyydystämiseksi tai tappamiseksi.",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 41 §:ssä tarkoitetulla poikkeusluvalla",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": "Ajat ilmenevät poikkeuslupapäätöksistä."
+                }
+            }
+        ]
+    },
+    "Tarhattu naali eli sinikettu": {
+        "vieraslaji": false,
+        "lajinimi": "Tarhattu naali eli sinikettu",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.7.2025",
+                    "info": "Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7."
+                }
+            }
+        ]
+    },
+    "Tavi": {
+        "vieraslaji": false,
+        "lajinimi": "Tavi",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Teeri": {
+        "vieraslaji": false,
+        "lajinimi": "Teeri",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "metsästysaika ilmoitetaan syyskuussa",
+                "metsastysajat": {
+                    "start": null,
+                    "end": null,
+                    "info": ""
+                }
+            }
+        ]
+    },
+    "Telkkä": {
+        "vieraslaji": false,
+        "lajinimi": "Telkkä",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Tukkakoskelo": {
+        "vieraslaji": false,
+        "lajinimi": "Tukkakoskelo",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Tukkasotka": {
+        "vieraslaji": false,
+        "lajinimi": "Tukkasotka",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "20.8.2025 Klo 12",
+                    "end": "31.12.2025",
+                    "info": "Lakisääteinen saalisilmoitus"
+                }
+            }
+        ]
+    },
+    "Valkohäntäpeura": {
+        "vieraslaji": false,
+        "lajinimi": "Valkohäntäpeura",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Vahtimalla – Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "26.9.2025",
+                    "info": "Vahtimalla. Ei Lapin maakunnassa."
+                }
+            },
+            {
+                "metsastysalue": "Suomen riistakeskuksen myöntämällä MetsL 26 §:n mukaisella hirvieläimen pyyntiluvalla",
+                "metsastysajat": {
+                    "start": "27.9.2025",
+                    "end": "15.2.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Villikani": {
+        "vieraslaji": false,
+        "lajinimi": "Villikani",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa",
+                "metsastysajat": {
+                    "start": "1.9.2025",
+                    "end": "31.3.2026",
+                    "info": null
+                }
+            }
+        ]
+    },
+    "Villisika": {
+        "vieraslaji": false,
+        "lajinimi": "Villisika",
+        "metsastysalueet": [
+            {
+                "metsastysalue": "Koko maassa. Naarasta, jolla on saman vuoden porsaat ei saa tappaa 1.3.–31.7.",
+                "metsastysajat": {
+                    "start": "1.8.2024",
+                    "end": "31.7.2025",
+                    "info": "Lakisääteinen saalisilmoitus."
+                }
+            }
+        ]
+    }
+}

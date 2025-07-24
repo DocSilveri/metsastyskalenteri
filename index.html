@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    /> -->
+    <title>Metsastyskalenteri</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/game-animals.css">
+
+    <!-- <script type="text/javascript" src="./node_modules/external-svg-loader/svg-loader.min.js" async></script>
+      -->
+
+  
+  </head>
+  <body>
+ 
+    <!-- Navbar -->
+    <nav>
+      <div class="navbar navbar-expand-lg text-bg-secondary mb-3">
+        <!-- Navbar title -->
+        <div class="navbar-brand text-white p-1 ms-3">Metsästyskalenteri</div>
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Riistaeläimet
+               </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="riistaelaimetNavbarDropDownItems">
+
+          <!-- Linnut -->
+
+          <span class="dropdown-item">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="sorsalinnutCheckBox">
+              <label class="form-check-label" for="sorsalinnutCheckBox">Sorsalinnut</label>
+            </div>
+          </span>
+          
+         
+          
+        </div>
+            </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Riistakeskuksen alueet
+                </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="metsastysAlueNavbarDropDownItems">
+
+
+                  <span class="dropdown-item">x
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="kaikkiAlueetCheckBox">
+                      <label class="form-check-label" for="kaikkiAlueetCheckBox">Kaikki alueet</label>
+                    </div>
+                  </span>
+                   
+                  <div class="dropdown-divider"></div>
+
+                  <span class="dropdown-item">
+                    <div class="form-check riista-alue">
+                      <input class="form-check-input" type="checkbox" value="" id="etelaHameCheckBox">
+                      <label class="form-check-label" for="etelaHameCheckBox">Etelä-Häme</label>
+                    </div>
+                  </span>
+                 
+                  
+
+
+
+                  </div>
+                </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <div class="container year-container d-flex justify-content-center">
+      <h1>2025</h1>
+    </div>
+
+    <!-- Kalenteri -->
+    <div class="container calendar-container">
+      <!-- Tammi-huhtikuu -->
+      <div class="row">
+        <div class="col-md-2">
+          <div class="card" id="card-month-january">
+            <div class="card-header">Tammikuu</div>
+              <div class="card-body p-0">
+                <div class="days-container">
+                  <!-- Viikko 1 -->
+                  <div class="text-bg-light text-nowrap px-2" id="week-1">
+                    <div class="row day-1-1-2025">
+                      <small class="col-1 daynum">1</small>
+                      <small class="col-1 dayletter">Ke</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-2-1-2025">
+                      <small class="col-1 daynum">2</small>
+                      <small class="col-1 dayletter">To</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-3-1-2025">
+                      <small class="col-1 daynum">3</small>
+                      <small class="col-1 dayletter">Pe</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-4-1-2025">
+                      <small class="col-1 daynum">4</small>
+                      <small class="col-1 dayletter">La</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-5-1-2025">
+                      <small class="col-1 daynum">5</small>
+                      <small class="col-1 dayletter">Su</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                  </div>
+                  <!-- Viikko 2 -->
+                  <div class="week-1 text-bg-white text-nowrap px-2">
+                     <div class="row day-6-1-2025">
+                      <small class="col-1 daynum">6</small>
+                      <small class="col-1 dayletter">Ma</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-7-1-2025">
+                      <small class="col-1 daynum">7</small>
+                      <small class="col-1 dayletter">Ti</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-8-1-2025">
+                      <small class="col-1 daynum">8</small>
+                      <small class="col-1 dayletter">Ke</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-9-1-2025">
+                      <small class="col-1 daynum">9</small>
+                      <small class="col-1 dayletter">To</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-10-1-2025">
+                      <small class="col-1 daynum">10</small>
+                      <small class="col-1 dayletter">Pe</small>
+                      <small class="col-8 hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-11-1-2025">
+                      <small class="col-1 daynum">11</small>
+                      <small class="col-1 dayletter">La</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                    <div class="row day-12-1-2025">
+                      <small class="col-1 daynum">12</small>
+                      <small class="col-1 dayletter">Su</small>
+                      <small class="col hunting-event">Hirvi</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  <i class="icon-deerhead icon-metsakauris"></i>
+  <i class="icon-deerhead icon-kuusipeura"></i>
+  <i class="icon-deerhead icon-metsapeura"></i>
+  <i class="icon-deerhead icon-valkohantapeura"></i>
+  <i class="icon-moosehead icon-hirvi"></i>
+  <i class="icon-duck"></i>
+  <i class="icon-goose"></i>
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+
+
+  </body>
+  <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="./src/controller.js"></script>
+</html>
