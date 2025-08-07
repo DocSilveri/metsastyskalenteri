@@ -1,5 +1,10 @@
 import { CalendarMonthView } from "./calendarMonthView.js";
-import { COL_SPACING, ANIMAL_ICONS, ANIMAL_GROUPS } from "../config.js";
+import {
+  COL_SPACING,
+  ANIMAL_ICONS,
+  ANIMAL_GROUPS,
+  ICON_EXCEPTIONS,
+} from "../config.js";
 import { range, toLower, capitalize } from "lodash";
 
 import unidecode from "unidecode";
@@ -69,6 +74,15 @@ export class CalendarView {
     //   html: true,
     //});
   }
+
+  changeColorForToday() {
+    const today = new Date();
+    const todayId = idFromDate(today);
+    const todayEl = document.querySelector(`#${todayId}`);
+    todayEl.classList.remove("text-bg-white");
+    todayEl.classList.remove("text-bg-light");
+    todayEl.classList.add("text-bg-info");
+  }
 }
 
 const titleFromGroup = function (group) {
@@ -116,7 +130,9 @@ const groupDuplicates = function (dataObj) {
 };
 
 const fetchInfoText = function (entry) {
-  return entry["infotext"]["text"].split("<br/>")[1];
+  const splitted = entry["infotext"]["text"].split("<br/>");
+  const infoText = splitted.slice(1).join("<br/>");
+  return infoText;
 };
 
 const idFromDate = function (date) {
@@ -133,7 +149,10 @@ const createDayEntry = function (title, icon, infoText, keyAnimal) {
 };
 
 const createIconName = function (animalName) {
-  return `${findIconClass(animalName)} icon-${unidecode(toLower(animalName))}`;
+  const lowerIcon = toLower(animalName);
+  if (Object.keys(ICON_EXCEPTIONS).includes(toLower(animalName))) {
+    return `${ICON_EXCEPTIONS[lowerIcon]} icon-${unidecode(lowerIcon)}`;
+  } else return `${findIconClass(animalName)} icon-${unidecode(lowerIcon)}`;
 };
 
 const findIconClass = function (animalName) {

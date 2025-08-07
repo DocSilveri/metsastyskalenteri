@@ -1,39 +1,162 @@
+[class^="icon-"] {
+  height: 1em;
+}
 .icon-hirvi {
-  height: 1em;
-  color: green;
-}
-
+  color: #4b5320;
+} /* Olive Drab – foresty and rugged */
 .icon-kuusipeura {
-  height: 1em;
-  color: red;
-}
-
+  color: #8b4513;
+} /* SaddleBrown – warm brown, like a fall coat */
 .icon-metsakauris {
-  height: 1em;
-  color: darkorange;
-}
-
+  color: #c96f32;
+} /* Copper – a bit lighter, reddish-brown like summer fur */
 .icon-valkohantapeura {
-  height: 1em;
-  color: blue;
-}
-
+  color: #915c36;
+} /* Warmer, more orange-brown – distinct from kuusipeura */
 .icon-metsapeura {
-  height: 1em;
-  color: darkslategrey;
+  color: #2f4f4f;
+} /* Dark Slate Gray – already good for a forest-dwelling species */
+
+.icon-tavi {
+  color: #5e715c;
+} /* Teal – muted green-grey with earthy tones */
+.icon-telkka {
+  color: #2f4f4f;
+} /* Goldeneye – dark head, pale sides */
+.icon-lapasorsa {
+  color: #745c3b;
+} /* Shoveler – earthy brown, subtle contrast */
+.icon-punasotka {
+  color: #802a2a;
+} /* Redhead – deep red and gray */
+.icon-haahka {
+  color: #708090;
+} /* Eider – soft slate/white mix */
+
+.icon-tukkasotka {
+  color: #3d3d3d;
+} /* Tufted Duck – black with golden eye */
+.icon-uivelo {
+  color: #44555c;
+} /* Smew – contrasting black and white */
+
+.icon-fasaani {
+  color: #a14121;
+}
+.icon-kiiruna {
+  color: #bbbbbb;
+}
+.icon-metso {
+  color: #2f4f4f;
+}
+.icon-peltopyy {
+  color: #b2a394;
+}
+.icon-pyy {
+  color: #8b6f4e;
+}
+.icon-riekko {
+  color: #c0c0c0;
+}
+.icon-teeri {
+  color: #556b8b;
 }
 
 .icon-haapana {
-  height: 1 em;
-  color: brown;
-}
-
-.icon-isokoskelo {
-  height: 1em;
-  color: darkslateblue;
-}
-
+  color: #a0522d;
+} /* Lämmin, tumma oranssinruskea (säilytetään, selvästi tumma) */
 .icon-heinasorsa {
-  height: 1em;
-  color: green;
+  color: #4a708b;
+} /* Viileä siniharmaa (täysin eri sävyalue) */
+.icon-isokoskelo {
+  color: #2d2f5e;
+} /* Tumma sinivioletti (pysyy, hyvä kontrasti) */
+.icon-alli {
+  color: #708090;
+} /* Vaalea siniharmaa (slate gray) – kontrastoi muiden kanssa */
+.icon-kanadanhanhi {
+  color: #3b3c4a;
+} /* Tumma hiilenharmaa – mustakaulainen, erottuva */
+.icon-merihanhi {
+  color: #8b7355;
+} /* Saviruskea – lämmin sävy selkään ja siipiin */
+.icon-metsahanhi {
+  color: #5a5a5a;
+} /* Tasapainoinen keskiharmaa – vähemmän kontrastia kuin kanadanhanhella */
+
+.icon-sepelkyyhky {
+  color: #a9a9a9;
+} /* dark gray – rock pigeon plumage */
+.icon-lehtokurppa {
+  color: #8b5e3c;
+} /* reddish brown – woodland tones */
+.icon-nokikana {
+  color: #2f4f4f;
+} /* dark slate – black bird with white beak */
+
+.icon-piisami {
+  color: #5a4e3c;
+} /* muddy brown – swamp rodent tone */
+.icon-mayra {
+  color: #4f4f4f;
+} /* charcoal gray – striped black and white */
+.icon-ilves {
+  color: #b36b00;
+} /* tawny – reddish-brown lynx fur */
+.icon-mufloni {
+  color: #7e5a36;
+} /* dark ochre – warm wild sheep tone */
+.icon-orava {
+  color: #a0522d;
+} /* chestnut – classic red squirrel coat */
+.icon-villisika {
+  color: #3a3a3a;
+} /* blackish gray – boar bristles */
+
+.icon-supikoira {
+  color: #5e5e4f;
+} /* muddy gray-brown – raccoon dog */
+.icon-karppa {
+  color: #c8b560;
+} /* yellow-cream – summer coat */
+.icon-naata {
+  color: #5c3a21;
+} /* chocolate brown – pine marten */
+.icon-saukko {
+  color: #4e4b45;
+} /* wet gray-brown – river otter */
+.icon-minkki {
+  color: #301a14;
+} /* almost black – dark mink fur */
+
+.icon-kettu {
+  color: #d2691e;
+} /* rusty orange – classic red fox */
+.icon-susi {
+  color: #6e6e6e;
+} /* wolf gray – natural fur mix */
+.icon-karhu {
+  color: #4b3621;
+} /* dark brown – bear fur */
+.icon-euroopanmajava {
+  color: #805337;
+} /* Warm reddish brown – distinct and natural */
+.icon-kanadanmajava {
+  color: #2f2a26; /* Very dark neutral brown – almost black, contrasts well */
 }
+.icon-metsajanis {
+  color: #8c8c8c;
+} /* Neutral gray – blends with mottled or winter coat, darker for contrast */
+.icon-rusakko {
+  color: #6b4f3a;
+} /* Earthy brown – matches typical russet-brown summer coat */
+.icon-villikani {
+  color: #4a3b2a;
+} /* Dark warm brown – distinct from rusakko but still natural */
+
+.icon-halli {
+  color: #3b3f51;
+} /* Cool dark gray-blue – more separation from norppa */
+.icon-itamerennorppa {
+  color: #7c675c;
+} /* Warm gray-brown – contrasts with halli and still natural */

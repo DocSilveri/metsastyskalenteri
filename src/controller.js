@@ -56,6 +56,7 @@ const updateCalendar = function () {
   console.log("Updating calendar");
   const maakuntaSet = new Set(model.selected.areas);
   const animalcollector = [];
+  console.log(model.selected.animal_groups);
   model.selected.animal_groups.forEach((group) => {
     animalcollector.push(...ANIMAL_GROUPS[group]);
   });
@@ -109,6 +110,10 @@ const updateCalendar = function () {
 
 const init = function () {
   console.log("Initializing");
+  // Fetch scrape information
+  const scrapeInfoContainer = document.querySelector("#scrapedate");
+  scrapeInfoContainer.innerHTML = model.scrapeinfo;
+
   // create calendar
 
   const calendarContainer = document.querySelector(".calendar-container");
@@ -116,6 +121,7 @@ const init = function () {
   calendarView = new CalendarView(CURRENTYEAR);
   calendarContainer.innerHTML = calendarView.render();
 
+  calendarView.changeColorForToday();
   // model.allDaysOfYear.forEach((day) => {
   //   const result = model.checkDate("Hirvi", day);
   //   if (result) {

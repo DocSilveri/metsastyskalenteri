@@ -128,8 +128,8 @@
             {
                 "metsastysalue": "Koko maassa",
                 "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.7.2025",
+                    "start": "1.8.2025",
+                    "end": "31.7.2026",
                     "info": "Lakisääteinen saalisilmoitus. Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7."
                 }
             }
@@ -234,14 +234,6 @@
                 "metsastysajat": {
                     "start": "16.4.2025",
                     "end": "31.12.2025",
-                    "info": "Kiintiö etusivulla"
-                }
-            },
-            {
-                "metsastysalue": "MetsL 10 §:n nojalla annetun alueellisen kiintiön puitteissa.",
-                "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.12.2024",
                     "info": "Kiintiö etusivulla"
                 }
             },
@@ -582,8 +574,8 @@
             {
                 "metsastysalue": "Koko maassa",
                 "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.7.2025",
+                    "start": "1.8.2025",
+                    "end": "31.7.2026",
                     "info": null
                 }
             }
@@ -688,8 +680,8 @@
             {
                 "metsastysalue": "Koko maassa",
                 "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.7.2025",
+                    "start": "1.8.2025",
+                    "end": "31.7.2026",
                     "info": null
                 }
             }
@@ -808,8 +800,8 @@
             {
                 "metsastysalue": "Koko maassa",
                 "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.7.2025",
+                    "start": "1.8.2025",
+                    "end": "31.7.2026",
                     "info": null
                 }
             }
@@ -844,8 +836,8 @@
             {
                 "metsastysalue": "Koko maassa",
                 "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.7.2025",
+                    "start": "1.8.2025",
+                    "end": "31.7.2026",
                     "info": "Naarasta, jolla on pentue ei saa tappaa 1.5.–31.7."
                 }
             }
@@ -964,8 +956,8 @@
             {
                 "metsastysalue": "Koko maassa. Naarasta, jolla on saman vuoden porsaat ei saa tappaa 1.3.–31.7.",
                 "metsastysajat": {
-                    "start": "1.8.2024",
-                    "end": "31.7.2025",
+                    "start": "1.8.2025",
+                    "end": "31.7.2026",
                     "info": "Lakisääteinen saalisilmoitus."
                 }
             }

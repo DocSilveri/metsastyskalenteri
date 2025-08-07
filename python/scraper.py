@@ -1,5 +1,6 @@
 import requests
 import json
+from datetime import date
 from bs4 import BeautifulSoup
 
 url = "https://riista.fi/metsastys/metsastysajat/"
@@ -267,12 +268,22 @@ def dataToJSON(data,filename):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(result, f, ensure_ascii=False, indent=4)
 
+def infoJSON(data,filename):
+    
+        
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
 def main():
     soup = fetch_soup(url)
     table = getGameTable(soup)
     rows = getTableRows(table)
     groups = processRowsToGroups(rows)
     data = processGroups(groups)
+    today = date.today()
+    finnish_date_format = today.strftime("%d.%m.%Y")
+    infoJSON({
+        "last_update": f'<small>Lähde: <a href="{url}"> Riistakeskus</a>. Päivämäärä: {finnish_date_format}</small>'},"scrapeinfo.json")
     dataToJSON(data,"metsastysajat.json")
     print("Done!")
 

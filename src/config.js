@@ -26,12 +26,38 @@ export const MAAKUNNAT = [
   "Varsinais-Suomi",
 ];
 
+export const MERIALUEET = [
+  "Lappi",
+  "Pohjois-Pohjanmaa",
+  "Keski-Pohjanmaa",
+  "Pohjanmaa",
+  "Satakunta",
+  "Varsinais-Suomi",
+  "Ahvenanmaa",
+  "Uusimaa",
+  "Kymenlaakso",
+];
+
+export const METSAHANHI_MUUMAA = [
+  "Ahvenanmaa",
+  "Etelä-Karjala",
+  "Etelä-Pohjanmaa",
+  "Kanta-Häme",
+  "Keski-Pohjanmaa",
+  "Keski-Suomi",
+  "Pirkanmaa",
+  "Pohjanmaa",
+  "Pohjois-Savo",
+  "Satakunta",
+  "Varsinais-Suomi",
+];
+
 export const MAAKUNTA_GENETIIVIT = [
   " Ahvenanmaan",
   " Etelä-Karjalan",
   " Etelä-Pohjanmaan",
   " Etelä-Savon",
-  " Kainuun",
+  "Kainuun",
   " Kanta-Hämen",
   " Kanta-Hämeen",
   " Keski-Pohjanmaan",
@@ -68,9 +94,17 @@ const SORSALINNUT = [
 
 const HANHET = ["Kanadanhanhi", "Merihanhi", "Metsähanhi"];
 
-const KANALINNUT = ["Fasaani", "Kiiruna", "Metso", "Pyy", "Riekko", "Teeri"];
+const KANALINNUT = [
+  "Fasaani",
+  "Kiiruna",
+  "Metso",
+  "Peltopyy",
+  "Pyy",
+  "Riekko",
+  "Teeri",
+];
 
-const MUUT_LINNUT = ["Lehtokurppa", "Nokikana", "Peltopyy", "Sepelkyyhky"];
+const MUUT_LINNUT = ["Lehtokurppa", "Nokikana", "Sepelkyyhky"];
 
 const HIRVI = ["Hirvi"];
 
@@ -103,7 +137,7 @@ export const ANIMAL_GROUPS = {
   sorsalinnut: SORSALINNUT,
   hanhet: HANHET,
   kanalinnut: KANALINNUT,
-  muut_linnut: MUUT_LINNUT,
+  muutLinnut: MUUT_LINNUT,
   hirvi: HIRVI,
   peurat: PEURAT,
   hylkeet: HYLKEET,
@@ -111,7 +145,7 @@ export const ANIMAL_GROUPS = {
   jäniseläimet: JANISELAIMET,
   pienpedot: PIENPEDOT,
   suurpedot: SUURPEDOT,
-  muut_nisäkkäät: MUUT_NISAKKAAT,
+  muutNisäkkäät: MUUT_NISAKKAAT,
 };
 
 export const ANIMAL_GROUPINGS = [
@@ -124,14 +158,34 @@ export const ANIMAL_GROUPINGS = [
 export const ANIMAL_ICONS = {
   sorsalinnut: "icon-duck",
   hanhet: "icon-goose",
-  kanalinnut: "",
-  muut_linnut: "",
-  hirvi: "icon-moosehead",
-  peurat: "icon-deerhead",
-  hylkeet: "",
-  majavat: "",
-  jäniseläimet: "",
-  pienpedot: PIENPEDOT,
-  suurpedot: SUURPEDOT,
-  muut_nisäkkäät: MUUT_NISAKKAAT,
+  kanalinnut: "icon-grouse",
+  muutLinnut: "",
+  hirvi: "icon-moose",
+  peurat: "icon-deer",
+  hylkeet: "icon-seal",
+  majavat: "icon-beaver",
+  jäniseläimet: "icon-rabbit",
+  pienpedot: "",
+  suurpedot: "",
+  muutNisäkkäät: "",
+};
+
+export const ICON_EXCEPTIONS = {
+  sepelkyyhky: "icon-pigeon",
+  lehtokurppa: "icon-woodcock",
+  nokikana: "icon-coot",
+  piisami: "icon-muskrat",
+  mäyrä: "icon-badger",
+  ilves: "icon-lynx",
+  mufloni: "icon-muflon",
+  orava: "icon-squirrel",
+  villisika: "icon-boar",
+  supikoira: "icon-raccoon_dog",
+  kärppä: "icon-mustelid",
+  näätä: "icon-mustelid",
+  saukko: "icon-mustelid",
+  minkki: "icon-mustelid",
+  kettu: "icon-fox",
+  susi: "icon-wolf",
+  karhu: "icon-bear",
 };

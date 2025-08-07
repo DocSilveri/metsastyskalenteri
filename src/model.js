@@ -1,12 +1,20 @@
 import { fromPairs } from "lodash";
 import metsästysaikaData from "../metsastysajat.json";
+import scrapeinfo from "../scrapeinfo.json";
 import { isSameDay, isBefore, isAfter, parse } from "date-fns";
 import { range, capitalize } from "lodash";
-import { MAAKUNNAT, MAAKUNTA_GENETIIVIT } from "./config.js";
+import {
+  MAAKUNNAT,
+  MAAKUNTA_GENETIIVIT,
+  MERIALUEET,
+  METSAHANHI_MUUMAA,
+} from "./config.js";
 import { te } from "date-fns/locale";
 
 class Model {
   constructor() {
+    this.scrapeinfo = scrapeinfo["last_update"];
+    console.log(this.scrapeinfo);
     this.rawdata = metsästysaikaData;
     this.data = {};
     //this.gameAnimals = Object.keys(this.data);
@@ -80,23 +88,29 @@ class Model {
     // Väännetään metsästysaluiista standarditermit, joita softa voi kääntää
 
     this.gameAnimals.forEach((gameAnimal) => {
-      //const collector = [];
+      const debugAnimal = false;
 
       this.data[gameAnimal]["metsastysalueet"].forEach((huntingArea) => {
         const huntingAreaDefinition = huntingArea["metsastysalue"];
 
-        const definitionAreas = parseHuntingArea(huntingAreaDefinition);
+        const definitionAreas = parseHuntingArea(
+          huntingAreaDefinition,
+          gameAnimal
+        );
 
         // Infotekstissä voi olla myös poikkeuksia, filtteröidään ne pois
         const infoText = huntingArea["metsastysajat"]["info"];
         if (infoText && infoText.includes("maakun")) {
-          const exceptions = parseHuntingArea(infoText);
+          const exceptions = parseHuntingArea(infoText, gameAnimal);
           huntingArea.standardNames = definitionAreas.filter((area) => {
             return !exceptions.includes(area);
           });
           //console.log(infoText, definitionAreas, huntingArea.standardNames);
         } else {
           huntingArea.standardNames = definitionAreas;
+        }
+        if (gameAnimal == debugAnimal) {
+          console.log(gameAnimal, huntingArea);
         }
       });
       //console.log(this.data[gameAnimal]);
@@ -120,6 +134,7 @@ class Model {
       throw new Error(`Game animal ${gameAnimal} not found`);
     }
     const huntingAreas = this.data[gameAnimal]["metsastysalueet"];
+    //console.log(huntingAreas);
 
     const collector = [];
     huntingAreas.forEach((huntingArea) => {
@@ -186,6 +201,7 @@ export const createInfoString = function (huntingAreas, gameAnimal) {
   const template = `
   <b>${gameAnimal}</b><br/>
   ${collector.join("<br/>")}`;
+  //console.log(template);
 
   const result = {
     text: template,
@@ -208,9 +224,10 @@ export const createInfoString = function (huntingAreas, gameAnimal) {
  *                          definition.
  */
 
-const parseMaakunnat = function (definition) {
+const parseMaakunnat = function (definition, gameAnimal, debugToken = false) {
   //console.log(definition);
   /// Maakuntien parsimisfunktio
+  const collector = [];
   if (!definition.includes("lukuun ottamatta")) {
     if (definition.includes("muualla kuin")) {
       // console.log(definition);
@@ -218,27 +235,36 @@ const parseMaakunnat = function (definition) {
     }
     // console.log("----- PING!!! --------");
     // console.log(definition);
-    const collector = [];
     MAAKUNTA_GENETIIVIT.forEach((maakunta, i) => {
       if (definition.includes(maakunta)) {
         collector.push(MAAKUNNAT[i]);
       }
     });
     if (definition.includes("Taivalkosk")) collector.push("Pohjois-Pohjanmaa");
-    //console.log(collector);
+
+    if (debugToken) console.log(collector);
     return collector;
   } else {
-    //console.log("----- PING!!! --------");
-    //console.log(definition);
-    const collector = [];
-    MAAKUNTA_GENETIIVIT.forEach((maakunta, i) => {
-      if (definition.includes(maakunta)) {
-        collector.push(MAAKUNNAT[i]);
-      }
-    });
-    //console.log(collector);
-    return collector;
+    if (gameAnimal !== "Metsähanhi") {
+      // Koska saakelin metsähanhi pitää käsitellä erikseen
+      MAAKUNTA_GENETIIVIT.forEach((maakunta, i) => {
+        if (definition.includes(maakunta)) {
+          collector.push(MAAKUNNAT[i]);
+        }
+      });
+      if (definition.includes("Taivalkosk"))
+        collector.push("Pohjois-Pohjanmaa");
+    } else {
+      MAAKUNTA_GENETIIVIT.forEach((maakunta, i) => {
+        if (definition.includes(maakunta)) {
+          collector.push(MAAKUNNAT[i]);
+        }
+      });
+    }
   }
+
+  if (debugToken) console.log(collector);
+  return collector;
 };
 
 /**
@@ -252,7 +278,13 @@ const parseMaakunnat = function (definition) {
  *                          If no specific region is identified, returns an array with undefined.
  */
 
-const parseHuntingArea = function (definition) {
+const parseHuntingArea = function (definition, gameAnimal) {
+  let debugToken = false;
+  // if (gameAnimal === "Metsähanhi") {
+  //   console.log("Ping", gameAnimal, definition);
+  //   debugToken = true;
+  // }
+
   //console.log(definition);
   // Varsinainen parsimisfunktio
   if (definition.includes("Koko maassa")) {
@@ -260,15 +292,20 @@ const parseHuntingArea = function (definition) {
   }
 
   if (definition.includes("Merialueilla")) {
-    return ["Merialueilla"];
+    return MERIALUEET;
   }
 
   if (definition.includes("Muualla maassa")) {
-    return ["Muualla maassa"];
+    return METSAHANHI_MUUMAA;
   }
 
   if (definition.includes("erikseen merkityllä alueella")) {
-    return ["Erikseen merkityllä alueella"];
+    ///console.log(gameAnimal);
+    if (gameAnimal === "Haahka") {
+      ///console.log("PING");
+      return MERIALUEET.filter((alue) => alue !== "Ahvenanmaa");
+    }
+    return MERIALUEET;
   }
 
   if (definition.includes("MetsL 10") && !definition.includes("maakun")) {
@@ -277,13 +314,13 @@ const parseHuntingArea = function (definition) {
 
   if (definition.includes("MetsL 41")) {
     if (definition.includes("maakun")) {
-      return parseMaakunnat(definition);
+      return parseMaakunnat(definition, gameAnimal);
     } else return MAAKUNNAT;
   }
 
   if (definition.includes("MetsL 26")) {
     if (definition.includes("maakun")) {
-      return parseMaakunnat(definition);
+      return parseMaakunnat(definition, gameAnimal);
     } else {
       // console.log("Ping!", definition);
       return MAAKUNNAT;
@@ -297,9 +334,10 @@ const parseHuntingArea = function (definition) {
   if (definition.includes("maakun")) {
     // console.log("PING!", definition);
     //console.log(parseMaakunnat(definition));
-    return parseMaakunnat(definition);
+    return parseMaakunnat(definition, gameAnimal, debugToken);
   }
   //console.log(definition);
+  //console.log(gameAnimal, definition);
   return [undefined];
 };
 
